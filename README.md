@@ -1,45 +1,103 @@
-# Análise de Arquitetura Web – YouTube
+# 🔎 Análise de Arquitetura Web – YouTube
 
-## Sobre o projeto
+## 📌 Sobre o projeto
 
 Este projeto apresenta uma análise prática da arquitetura cliente-servidor de uma aplicação web, utilizando o YouTube como objeto de investigação.
 
-A análise foi realizada por meio das ferramentas de desenvolvedor do navegador, com foco na aba Network, permitindo observar requisições HTTP, métodos, endpoints, códigos de status, cabeçalhos e estruturas JSON trafegadas entre cliente e servidor.
+A análise foi realizada por meio das ferramentas de desenvolvedor do navegador (DevTools), com foco na aba **Network**, permitindo observar o tráfego de dados entre o navegador e os servidores da aplicação.
 
-## Objetivos
+## 🎯 Objetivos
 
 - Identificar requisições HTTP relevantes;
-- Analisar métodos GET, POST e HEAD;
-- Observar endpoints utilizados pela aplicação;
-- Interpretar códigos de status HTTP;
-- Analisar dados JSON transmitidos;
-- Compreender a comunicação entre front-end e back-end;
-- Representar o fluxo de comunicação cliente-servidor.
+- Analisar métodos HTTP utilizados pela aplicação;
+- Observar endpoints e códigos de status;
+- Analisar Headers, Payload e Response;
+- Compreender o papel das APIs na comunicação cliente-servidor;
+- Identificar estruturas de dados JSON;
+- Documentar o fluxo de comunicação entre Front-end e Back-end.
 
-## Tecnologias e ferramentas
+## 🛠️ Tecnologias e ferramentas
 
-- Navegador Web
-- Chrome DevTools
-- Network
-- HTTP/HTTPS
-- APIs
-- JSON
-- YouTube
+- 🌐 Navegador Web
+- 🛠️ Chrome DevTools
+- 📡 HTTP / HTTPS
+- 🔌 APIs
+- 📦 JSON
+- 🖥️ Arquitetura Cliente-Servidor
+- 🐙 GitHub
 
-## Evidências da análise
+## 🔬 Metodologia
 
-As capturas de tela registram diferentes requisições observadas durante a navegação e utilização da aplicação:
+A investigação foi realizada utilizando a aba **Network** das ferramentas de desenvolvedor.
 
-1. Pesquisa – Headers
-2. Pesquisa – Payload
-3. Pesquisa – Response JSON
-4. Reprodução de vídeo – Headers
-5. Playback – Headers
-6. Watchtime – Headers
-7. Generate 204 – Headers
+Durante a análise foram observadas diferentes requisições geradas pela aplicação, considerando:
 
-## Conclusão
+- Endpoint;
+- Método HTTP;
+- Código de status;
+- Request Headers;
+- Response Headers;
+- Payload;
+- Response;
+- Comunicação entre cliente e servidor.
 
-A atividade permitiu compreender, na prática, como uma aplicação web realiza a comunicação entre o cliente e os servidores por meio de requisições HTTP. A análise dos métodos, endpoints, cabeçalhos, códigos de status e estruturas JSON contribuiu para o desenvolvimento de conhecimentos relacionados à arquitetura web, APIs e análise de tráfego de aplicações.
+## 📊 Evidências da análise
 
-Este projeto faz parte do meu processo de desenvolvimento profissional na área de tecnologia e desenvolvimento de software.
+As evidências coletadas durante a investigação estão disponíveis na pasta [`prints`](./prints/).
+
+### 01 – Pesquisa – Headers
+
+![Pesquisa Headers](./prints/01%20-%20Pesquisa%20-%20Headers.jpg)
+
+### 02 – Pesquisa – Payload
+
+![Pesquisa Payload](./prints/02%20-%20Pesquisa%20-%20Payload.jpg)
+
+### 03 – Pesquisa – Response JSON
+
+![Pesquisa Response JSON](./prints/03%20-%20Pesquisa%20-%20Response%20JSON.jpg)
+
+### 04 – Reprodução de vídeo – Headers
+
+![Reprodução de vídeo](./prints/04%20-%20Reprodução%20de%20vídeo%20-%20Headers.jpg)
+
+### 05 – Playback – Headers
+
+![Playback Headers](./prints/05%20-%20Playback%20-%20Headers.jpg)
+
+### 06 – Watchtime – Headers
+
+![Watchtime Headers](./prints/06%20-%20Watchtime%20-%20Headers.jpg)
+
+### 07 – Generate 204 – Headers
+
+![Generate 204](./prints/07%20-%20Generate%20204%20-%20Headers.jpg)
+
+## 🏗️ Arquitetura analisada
+
+O fluxo observado segue o modelo tradicional de comunicação cliente-servidor:
+
+**Usuário → Front-end → API/Servidor → Processamento → Resposta HTTP → Front-end**
+
+Durante a investigação foram identificadas requisições utilizando diferentes métodos HTTP e códigos de status, demonstrando como uma aplicação web moderna realiza comunicação constante com seus servidores.
+
+## 📚 Aprendizados
+
+A experiência permitiu desenvolver conhecimentos práticos sobre:
+
+- Arquitetura cliente-servidor;
+- Comunicação HTTP;
+- APIs;
+- JSON;
+- Headers;
+- Payloads;
+- Status Codes;
+- Análise de tráfego de rede;
+- Uso das ferramentas DevTools;
+- Documentação técnica.
+
+## 👨‍💻 Autor
+
+**João Moreira**
+
+Projeto desenvolvido como parte de uma experiência prática de análise de arquitetura web.
