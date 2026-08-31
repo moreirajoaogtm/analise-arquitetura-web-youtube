@@ -75,11 +75,42 @@ As evidências coletadas durante a investigação estão disponíveis na pasta [
 
 ## 🏗️ Arquitetura analisada
 
-O fluxo observado segue o modelo tradicional de comunicação cliente-servidor:
+A análise realizada por meio do DevTools permitiu observar, na prática, o fluxo de comunicação entre o navegador e os serviços utilizados pela aplicação web.
 
-**Usuário → Front-end → API/Servidor → Processamento → Resposta HTTP → Front-end**
+De forma simplificada, o fluxo observado pode ser representado da seguinte maneira:
 
-Durante a investigação foram identificadas requisições utilizando diferentes métodos HTTP e códigos de status, demonstrando como uma aplicação web moderna realiza comunicação constante com seus servidores.
+**Usuário → Front-end → Requisição HTTP → API/Servidor → Processamento → Resposta HTTP → Front-end**
+
+### 🔹 Cliente (Front-end)
+
+O navegador atua como cliente da aplicação. É responsável por receber as ações do usuário e realizar requisições aos serviços necessários para executar determinadas funcionalidades.
+
+### 🔹 Requisições HTTP
+
+Durante a análise da aba **Network**, foram observadas requisições HTTP realizadas pelo navegador. Essas requisições apresentam informações como método HTTP, URL, cabeçalhos, parâmetros e, em determinados casos, dados enviados no corpo da requisição.
+
+### 🔹 API e Servidor
+
+As requisições são direcionadas aos serviços responsáveis pelo processamento das solicitações. A API atua como uma camada de comunicação entre o cliente e os serviços do sistema, recebendo informações e retornando dados ao navegador.
+
+### 🔹 Resposta HTTP
+
+Após o processamento da requisição, o servidor retorna uma resposta HTTP. Essa resposta pode conter código de status, cabeçalhos e dados estruturados, como informações no formato **JSON**.
+
+### 🔹 Comunicação cliente-servidor
+
+A análise das requisições permitiu identificar diferentes elementos da comunicação HTTP, incluindo:
+
+- Métodos HTTP;
+- URLs e endpoints;
+- Request Headers;
+- Response Headers;
+- Payload;
+- Response;
+- Códigos de status HTTP;
+- Dados estruturados em JSON.
+
+Essa observação permite compreender, de forma prática, como uma aplicação web realiza a comunicação entre o navegador e seus serviços durante a execução de suas funcionalidades.
 
 ## 📚 Aprendizados
 
