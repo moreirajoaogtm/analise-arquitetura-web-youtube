@@ -47,31 +47,31 @@ As evidências coletadas durante a investigação estão disponíveis na pasta [
 
 ### 01 – Pesquisa – Headers
 
-![Pesquisa Headers](./prints/01%20-%20Pesquisa%20-%20Headers.jpg)
+<img src="./prints/01%20-%20Pesquisa%20-%20Headers.jpg" alt="Pesquisa - Headers">
 
 ### 02 – Pesquisa – Payload
 
-![Pesquisa Payload](./prints/02%20-%20Pesquisa%20-%20Payload.jpg)
+<img src="./prints/02%20-%20Pesquisa%20-%20Payload.jpg" alt="Pesquisa - Payload">
 
 ### 03 – Pesquisa – Response JSON
 
-![Pesquisa Response JSON](./prints/03%20-%20Pesquisa%20-%20Response%20JSON.jpg)
+<img src="./prints/03%20-%20Pesquisa%20-%20Response%20JSON.jpg" alt="Pesquisa - Response JSON">
 
 ### 04 – Reprodução de vídeo – Headers
 
-![Reprodução de vídeo](./prints/04%20-%20Reprodução%20de%20vídeo%20-%20Headers.jpg)
+<img src="./prints/04%20-%20Reprodução%20de%20vídeo%20-%20Headers.jpg" alt="Reprodução de vídeo - Headers">
 
 ### 05 – Playback – Headers
 
-![Playback Headers](./prints/05%20-%20Playback%20-%20Headers.jpg)
+<img src="./prints/05%20-%20Playback%20-%20Headers.jpg" alt="Playback - Headers">
 
 ### 06 – Watchtime – Headers
 
-![Watchtime Headers](./prints/06%20-%20Watchtime%20-%20Headers.jpg)
+<img src="./prints/06%20-%20Watchtime%20-%20Headers.jpg" alt="Watchtime - Headers">
 
 ### 07 – Generate 204 – Headers
 
-![Generate 204](./prints/07%20-%20Generate%20204%20-%20Headers.jpg)
+<img src="./prints/07%20-%20Generate%20204%20-%20Headers.jpg" alt="Generate 204 - Headers">
 
 ## 🏗️ Arquitetura analisada
 
