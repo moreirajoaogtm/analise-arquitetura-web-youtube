@@ -181,6 +181,12 @@ Registro de uma requisição utilizada durante a comunicação da aplicação.
 | 06 | Watchtime | Headers |
 | 07 | Generate 204 | Headers |
 
+## 📚 Documentação técnica
+
+A análise técnica detalhada da arquitetura, das requisições HTTP, dos Headers, Payload, Response, JSON e códigos de status está disponível no documento abaixo.
+
+👉 [Acessar documentação técnica](./docs/analise-tecnica.md)
+
 
 ## 👨‍💻 Autor
 
