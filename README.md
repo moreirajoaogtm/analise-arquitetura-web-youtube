@@ -114,18 +114,22 @@ Essa observação permite compreender, de forma prática, como uma aplicação w
 
 ## 📚 Aprendizados
 
-A experiência permitiu desenvolver conhecimentos práticos sobre:
+A realização desta análise permitiu desenvolver conhecimentos práticos sobre o funcionamento da comunicação entre aplicações web e seus serviços.
 
-- Arquitetura cliente-servidor;
-- Comunicação HTTP;
-- APIs;
-- JSON;
-- Headers;
-- Payloads;
-- Status Codes;
-- Análise de tráfego de rede;
-- Uso das ferramentas DevTools;
-- Documentação técnica.
+Durante a investigação, foi possível compreender e aplicar os seguintes conceitos:
+
+- **Arquitetura cliente-servidor:** compreensão do papel do navegador como cliente e dos serviços responsáveis pelo processamento das requisições;
+- **Comunicação HTTP:** análise do processo de envio de requisições e recebimento de respostas;
+- **Métodos HTTP:** identificação dos métodos utilizados nas requisições observadas;
+- **Request Headers:** análise das informações enviadas pelo cliente ao servidor;
+- **Response Headers:** observação das informações retornadas pelo servidor;
+- **Payload:** identificação e análise dos dados enviados no corpo das requisições;
+- **Response:** observação dos dados retornados pela aplicação;
+- **JSON:** compreensão da utilização de estruturas de dados no intercâmbio de informações;
+- **Códigos de status HTTP:** interpretação dos códigos retornados pelas requisições;
+- **Análise de tráfego de rede:** utilização da aba **Network** para acompanhar as comunicações realizadas pelo navegador;
+- **DevTools:** utilização das ferramentas de desenvolvedor do navegador para investigação técnica;
+- **Documentação técnica:** organização das evidências e dos resultados obtidos durante a análise.
 
 - ## 🖼️ Fluxograma da arquitetura
 
