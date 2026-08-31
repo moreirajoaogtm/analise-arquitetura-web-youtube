@@ -96,6 +96,57 @@ A experiência permitiu desenvolver conhecimentos práticos sobre:
 - Uso das ferramentas DevTools;
 - Documentação técnica.
 
+- ## 🖼️ Fluxograma da arquitetura
+
+O fluxograma abaixo representa o fluxo de comunicação entre o cliente (Front-end), a API e o servidor (Back-end), destacando as principais etapas da requisição e resposta HTTP.
+
+![Fluxo de comunicação cliente-servidor](docs/fluxograma-comunicacao-cliente-servidor.jpg)
+
+## 📸 Evidências da análise
+
+Durante a análise foram coletadas evidências utilizando as ferramentas de desenvolvedor do navegador (DevTools), especialmente a aba Network.
+
+### 01 — Pesquisa de vídeos: Headers
+
+Registro dos cabeçalhos HTTP observados durante a pesquisa de vídeos.
+
+### 02 — Pesquisa de vídeos: Payload
+
+Registro do corpo da requisição enviada pelo cliente.
+
+### 03 — Pesquisa de vídeos: Response JSON
+
+Registro da estrutura JSON retornada pela aplicação.
+
+### 04 — Reprodução de vídeo: Headers
+
+Análise dos cabeçalhos envolvidos na reprodução do vídeo.
+
+### 05 — Playback: Headers
+
+Análise da comunicação relacionada ao processo de playback.
+
+### 06 — Watchtime: Headers
+
+Análise da requisição relacionada ao acompanhamento do tempo de reprodução.
+
+### 07 — Generate 204: Headers
+
+Registro de uma requisição utilizada durante a comunicação da aplicação.
+
+## 📋 Resumo das evidências
+
+| Nº | Análise | Evidência |
+|---|---|---|
+| 01 | Pesquisa de vídeos | Headers |
+| 02 | Pesquisa de vídeos | Payload |
+| 03 | Pesquisa de vídeos | Response JSON |
+| 04 | Reprodução de vídeo | Headers |
+| 05 | Playback | Headers |
+| 06 | Watchtime | Headers |
+| 07 | Generate 204 | Headers |
+
+
 ## 👨‍💻 Autor
 
 **João Moreira**
